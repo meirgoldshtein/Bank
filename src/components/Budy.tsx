@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import Nav from './Nav'
 import Home from './Home'
 import Transfer from './Transfer'
-type PageType = 'home' | 'transfer'
+import Weather from './Weather'
+type PageType = 'home' | 'transfer' | 'weather'
 export default function Budy() {
     
     const [currentPage, setCurrentPage] = useState<PageType>('home')
@@ -12,6 +13,8 @@ export default function Budy() {
                 return <Home />
             case 'transfer':
                 return <Transfer />
+            case 'weather':
+                return <Weather />
             default:
                 return <Home />
         }
