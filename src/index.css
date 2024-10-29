@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  height: 100vh;
+  width: 100vw;
+}
+
+.header {
+  background-color: rgb(120, 112, 103);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+
+}
+
+
+
+.budy {
+  background-color: rgb(61, 166, 91);
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  width: 100%;
+  height: 90%;
+
+}
+
+
+
+.content {
+  background-color: bisque;
+  width: 80%;
+  height: 100%;
+
+}
+.nav {
+  background-color: rgb(187, 209, 194);
+  width: 20%;
+  height: 100%;
+}
+
+.nav p {
+  padding: 5px;
+  text-align: center;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 5px;
+  background-color: rgb(197, 127, 127);
+}
